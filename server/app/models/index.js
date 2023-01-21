@@ -7,5 +7,6 @@ const db = {};
 db.mongoose = mongoose;
 db.url = dbConfig.url;
 db.computer = require("./computer.model.js")(mongoose);
+db.employee = require("./employee.model")(mongoose);
 
 module.exports = db;

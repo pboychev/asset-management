@@ -42,3 +42,4 @@ db.mongoose
   });
 
 require("./app/routes/computer.routes")(app);
+require("./app/routes/employee.routes")(app);
